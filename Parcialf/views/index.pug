@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  p Funko
+  form(method='POST')
+        label(for="personaje") Nombre del Funko: 
+        input(type='text' name='personaje')
+        br
+        br
+        label(for="tamaño") Tamaño: 
+        input(type='text' name='attribute')
+        br
+        br
+        label(for="precio") Precio: 
+        input(type='text' name='precio')
+        br
+        br
+        label(for="tipo") Tipo de Funko:
+        input(type='text' name='tipo')
+        <br>
+        <br>
+        button(type='submit') Guardar
